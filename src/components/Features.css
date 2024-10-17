@@ -21,6 +21,7 @@
   border-color: #09487c !important;
   border-width: 4px !important;
   text-align: center;
+  height: 33rem !important;
 }
 
 .project-card:hover {

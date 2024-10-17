@@ -1,18 +1,18 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./Home.css";
 
 const Home = () => (
   <div className="home">
     <header className="animated-header">
       <h1>Established 1984</h1>
-      <p>
+      <p className="tagLine">
         THE PROFESSIONAL CHOICE FOR STEEL CONSTRUCTION IN BOLAND AND OVERBERG
         FOR OVER 40 YEARS
       </p>
-      <Button href="/projects" className="projectsButton">
-        Our Projects
-      </Button>
+      <Link to="/projects">
+        <button className="projectsButton">See Our Portfolio</button>
+      </Link>
     </header>
   </div>
 );
