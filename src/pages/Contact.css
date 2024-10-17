@@ -1,0 +1,57 @@
+.contact-page {
+  padding: 150px 20px;
+}
+
+.page-paragraph {
+  color: white;
+  font-size: 2rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #09487c;
+}
+
+.projectsTitle {
+  font-size: 3rem !important;
+  color: #ffffff !important;
+  text-align: center;
+  margin-bottom: 20px;
+  animation: fadeIn 0.5s ease-in;
+  font-weight: 800;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #09487c;
+}
+
+.contact-info {
+  background: white;
+  border-radius: 10px;
+  padding: 90px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: slideIn 0.5s ease-in-out;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 2rem;
+  }
+}

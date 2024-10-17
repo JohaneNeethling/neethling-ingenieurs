@@ -1,0 +1,80 @@
+.whyus-section {
+  padding: 40px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.why-us-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    background-color 0.3s ease;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  height: 380px !important;
+  border-radius: 10px;
+  border-color: #09487c !important;
+  border-width: 4px !important;
+}
+
+.why-us-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: yellow;
+  z-index: 1;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.why-us-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.why-us-card:hover::before {
+  opacity: 1;
+}
+
+.why-us-card h3 {
+  font-size: 1.5rem;
+  z-index: 2;
+  position: relative;
+}
+
+.why-us-card p {
+  color: #6c757d;
+  z-index: 2;
+  position: relative;
+}
+
+.why-us-card {
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+.why-us-card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.why-us-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.why-us-card:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.why-us-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    background-color 0.3s ease;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  height: 250px !important;
+  background: white;
+}

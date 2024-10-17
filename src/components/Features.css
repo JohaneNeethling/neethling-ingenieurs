@@ -1,0 +1,60 @@
+.cardCover {
+  object-fit: cover;
+  height: 25rem;
+  width: 40rem;
+}
+
+.featTitle {
+  font-size: 40px !important;
+  font-weight: 600 !important;
+}
+
+.feature-projects h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 10px;
+  border-color: #09487c !important;
+  border-width: 4px !important;
+  text-align: center;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

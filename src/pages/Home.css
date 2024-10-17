@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.home {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.animated-header {
+  color: #ffffff;
+  padding: 60px 20px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  animation: fadeIn 1s ease-in-out;
+  font-weight: 600;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #09487c;
+}
+
+.animated-header h1 {
+  font-size: 4rem;
+  margin: 0;
+  animation: slideIn 1s ease-in-out forwards;
+  font-weight: 800;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #09487c;
+}
+
+.animated-header p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  opacity: 0;
+  animation: fadeInUp 1s 0.5s ease-in-out forwards;
+}
+
+.animated-header button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #28a745;
+  transition: background-color 0.3s ease;
+}
+
+.animated-header button:hover {
+  background-color: #218838;
+}
+
+.company-overview {
+  margin-top: 40px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.company-overview h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.company-overview p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.company-overview:hover {
+  transform: translateY(-5px);
+}
+
+.myh2 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 800;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #09487c;
+  margin-bottom: 20px;
+}
+
+.projectsButton {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  color: #09487c !important;
+  background-color: #ffffff !important;
+  border-color: #09487c !important;
+  border-width: 4px !important;
+}

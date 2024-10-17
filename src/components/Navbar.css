@@ -1,0 +1,35 @@
+.navbar {
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.navbar.scrolled {
+  background-color: #1c1c1c;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link {
+  transition: color 0.3s;
+  color: white !important;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+.nav-link:hover {
+  color: #71e0ff !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  transition: transform 0.3s;
+  font-size: 40px !important;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    background-color: #343a40;
+  }
+}
