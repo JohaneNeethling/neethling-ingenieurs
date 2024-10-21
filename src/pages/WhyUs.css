@@ -1,5 +1,5 @@
 .whyus-section {
-  padding: 40px;
+  padding: 40px 20px;
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -11,10 +11,12 @@
   margin: 10px;
   position: relative;
   overflow: hidden;
-  height: 380px !important;
   border-radius: 10px;
   border-color: #09487c !important;
   border-width: 4px !important;
+  background: white;
+  animation: fadeInUp 0.5s ease forwards;
+  height: 250px !important;
 }
 
 .why-us-card::before {
@@ -51,10 +53,6 @@
   position: relative;
 }
 
-.why-us-card {
-  animation: fadeInUp 0.5s ease forwards;
-}
-
 .why-us-card:nth-child(1) {
   animation-delay: 0.1s;
 }
@@ -67,14 +65,21 @@
   animation-delay: 0.3s;
 }
 
-.why-us-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease,
-    background-color 0.3s ease;
-  border: none;
-  border-radius: 10px;
-  margin: 10px;
-  position: relative;
-  overflow: hidden;
-  height: 250px !important;
-  background: white;
+@media (max-width: 768px) {
+  .whyus-section {
+    padding: 30px 10px;
+  }
+
+  .why-us-card {
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .why-us-card h3 {
+    font-size: 1.25rem;
+  }
+
+  .why-us-card p {
+    font-size: 0.9rem;
+  }
 }

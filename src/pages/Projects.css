@@ -15,6 +15,10 @@ body {
 }
 
 .projects-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   padding: 70px 70px !important;
 }
@@ -36,8 +40,8 @@ body {
 }
 
 .projectImg {
-  height: 20rem;
-  width: 15rem;
+  width: 100%;
+  height: 200px !important;
 }
 
 .project-card {
@@ -47,7 +51,7 @@ body {
   border-radius: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  height: 22rem !important;
+  height: auto;
   margin-top: 20px;
 }
 
@@ -96,4 +100,18 @@ body {
 
 .projects-page {
   animation: fadeIn 1s ease-out;
+}
+
+@media (max-width: 768px) {
+  .projects-page {
+    padding: 20px;
+  }
+
+  .projects-page h2 {
+    font-size: 1.8rem;
+  }
+
+  .project-card {
+    margin-top: 10px;
+  }
 }

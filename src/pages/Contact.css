@@ -51,7 +51,21 @@
 }
 
 @media (max-width: 768px) {
-  .page-title {
-    font-size: 2rem;
+  .contact-page {
+    padding: 80px 10px;
+  }
+
+  .page-paragraph {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .projectsTitle {
+    font-size: 2.5rem;
+  }
+
+  .contact-info {
+    padding: 40px;
+    letter-spacing: 2px;
   }
 }

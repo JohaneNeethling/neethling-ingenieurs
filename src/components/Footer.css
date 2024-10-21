@@ -36,7 +36,20 @@
   transform: scale(1.1);
 }
 
-/* Animations */
+@media (max-width: 600px) {
+  .footer {
+    padding: 15px 0;
+  }
+
+  .footer p {
+    font-size: 0.9rem;
+  }
+
+  .footer-links a {
+    margin: 0 10px;
+  }
+}
+
 @keyframes slideIn {
   from {
     transform: translateY(50px);

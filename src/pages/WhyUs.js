@@ -1,13 +1,17 @@
-import "./WhyUs.css";
+// Import necessary libraries and components
+import "./WhyUs.css"; // Import CSS for styling the Why Us section
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap"; // Import Bootstrap components
 
+// Define the WhyUs functional component
 function WhyUs() {
   return (
+    // Create a Bootstrap container for the Why Us section
     <Container className="whyus-section my-5">
-      <h2 className="myh2">Decades of Experience</h2>
+      <h2 className="myh2">Decades of Experience</h2> {/* Section title */}
       <Row>
-        <Col md={3}>
+        {/* Card for Flooring experience */}
+        <Col xs={12} md={3} className="mb-4">
           <Card className="why-us-card">
             <Card.Body>
               <Card.Title className="titleServices">Flooring</Card.Title>
@@ -19,7 +23,8 @@ function WhyUs() {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={3}>
+        {/* Card for Customer Service */}
+        <Col xs={12} md={3} className="mb-4">
           <Card className="why-us-card">
             <Card.Body>
               <Card.Title className="titleServices">
@@ -33,7 +38,8 @@ function WhyUs() {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={3}>
+        {/* Card for Commitment to Quality */}
+        <Col xs={12} md={3} className="mb-4">
           <Card className="why-us-card">
             <Card.Body>
               <Card.Title className="titleServices">
@@ -47,7 +53,8 @@ function WhyUs() {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={3}>
+        {/* Card for Service Offering */}
+        <Col xs={12} md={3} className="mb-4">
           <Card className="why-us-card">
             <Card.Body>
               <Card.Title className="titleServices">
@@ -66,4 +73,5 @@ function WhyUs() {
   );
 }
 
+// Export the WhyUs component for use in other parts of the application
 export default WhyUs;

@@ -1,12 +1,16 @@
-import "./Services.css";
+// Import necessary libraries and components
+import "./Services.css"; // Import CSS for styling the services section
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap"; // Import Bootstrap components
 
+// Define the Services functional component
 function Services() {
   return (
+    // Create a Bootstrap container for the services section
     <Container className="services-section my-5">
-      <h2 className="myh2">Services We Provide</h2>
+      <h2 className="myh2">Services We Provide</h2> {/* Section title */}
       <Row>
+        {/* Card for Flooring service */}
         <Col md={3}>
           <Card className="service-card">
             <Card.Body>
@@ -22,6 +26,7 @@ function Services() {
             </Card.Body>
           </Card>
         </Col>
+        {/* Card for Assembly service */}
         <Col md={3}>
           <Card className="service-card">
             <Card.Body>
@@ -35,6 +40,7 @@ function Services() {
             </Card.Body>
           </Card>
         </Col>
+        {/* Card for Design service */}
         <Col md={3}>
           <Card className="service-card">
             <Card.Body>
@@ -50,6 +56,7 @@ function Services() {
             </Card.Body>
           </Card>
         </Col>
+        {/* Card for Plans service */}
         <Col md={3}>
           <Card className="service-card">
             <Card.Body>
@@ -68,6 +75,7 @@ function Services() {
         </Col>
       </Row>
       <Row>
+        {/* Card for Finishing service */}
         <Col md={3}>
           <Card className="service-card">
             <Card.Body>
@@ -84,6 +92,7 @@ function Services() {
             </Card.Body>
           </Card>
         </Col>
+        {/* Card for Measurements service */}
         <Col md={3}>
           <Card className="service-card">
             <Card.Body>
@@ -99,6 +108,7 @@ function Services() {
             </Card.Body>
           </Card>
         </Col>
+        {/* Card for Quotations service */}
         <Col md={3}>
           <Card className="service-card">
             <Card.Body>
@@ -114,6 +124,7 @@ function Services() {
             </Card.Body>
           </Card>
         </Col>
+        {/* Card for Manufacturing service */}
         <Col md={3}>
           <Card className="service-card">
             <Card.Body>
@@ -131,4 +142,5 @@ function Services() {
   );
 }
 
+// Export the Services component for use in other parts of the application
 export default Services;
