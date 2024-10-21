@@ -13,7 +13,16 @@ const Footer = () => {
         <Row>
           {/* First column for copyright information */}
           <Col md={6}>
-            <p>© 2024 Neethling Ingenieurs. All rights reserved.</p>
+            <p>
+              © 2024 Neethling Ingenieurs. All rights reserved.| Coded by{" "}
+              <a
+                href="https://online-architect.onrender.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                The Online Architect
+              </a>
+            </p>
           </Col>
           {/* Second column for navigation links */}
           <Col md={6} className="footer-links">
