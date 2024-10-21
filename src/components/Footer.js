@@ -14,7 +14,8 @@ const Footer = () => {
           {/* First column for copyright information */}
           <Col md={6}>
             <p>
-              © 2024 Neethling Ingenieurs. All rights reserved.| Coded by{" "}
+              © 2024 Neethling Ingenieurs. All rights reserved <br />
+              Coded by{" "}
               <a
                 href="https://online-architect.onrender.com/"
                 target="_blank"
