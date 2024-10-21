@@ -11,8 +11,6 @@
   color: #ffffff;
   animation: slideIn 1s ease-in-out forwards;
   font-weight: 800;
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: #09487c;
 }
 
 .service-card {

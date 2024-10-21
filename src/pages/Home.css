@@ -23,8 +23,6 @@ body {
   overflow: hidden;
   animation: fadeIn 1s ease-in-out;
   font-weight: 600;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #09487c;
 }
 
 .animated-header h1 {
@@ -32,8 +30,6 @@ body {
   margin: 0;
   animation: slideIn 1s ease-in-out forwards;
   font-weight: 800;
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: #09487c;
 }
 
 .animated-header p {
@@ -85,8 +81,6 @@ body {
   color: #ffffff;
   text-align: center;
   font-weight: 800;
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: #09487c;
   margin-bottom: 20px;
 }
 
